@@ -10,4 +10,5 @@ class Email extends Model
     protected $fillable = [
         'title', 'body'
     ];
+    public $timestamps = false; 
 }

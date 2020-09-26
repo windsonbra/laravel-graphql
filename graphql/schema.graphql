@@ -4,9 +4,17 @@ scalar Date @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\Date")
 "A datetime string with format `Y-m-d H:i:s`, e.g. `2018-05-23 13:43:32`."
 scalar DateTime @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\DateTime")
 
+
 type Query {
    emails: [Email!]! @all
    email(id: Int! @eq): Email @find
+}
+
+type Mutation {
+    createEmail(title: String!,body: String!): Email @create
+    updateEmail(id: ID!,title: String!,body: String!): Email @update
+    deleteEmail(id: ID!): Email @delete
+
 }
 
 type Email {
@@ -14,6 +22,5 @@ type Email {
     title: String!
     body: String 
 }
-
 
 
