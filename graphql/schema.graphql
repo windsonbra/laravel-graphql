@@ -19,7 +19,7 @@ type Mutation {
 type Email {
     id: ID!
     title: String!
-    body: String 
+    body: String @canAccess(requiredRole: "admin")
 }
 
 
