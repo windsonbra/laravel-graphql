@@ -11,10 +11,9 @@ type Query {
 }
 
 type Mutation {
-    createEmail(title: String!,body: String!): Email @create
-    updateEmail(id: ID!,title: String!,body: String!): Email @update
-    deleteEmail(id: ID!): Email @delete
-
+    createEmail(title:String!,body:String!):Email @create
+    updateEmail(id:ID!,title:String!,body:String!):Email @update
+    deleteEmail(id:ID!):Email @delete
 }
 
 type Email {
@@ -22,5 +21,7 @@ type Email {
     title: String!
     body: String 
 }
+
+
 
 
