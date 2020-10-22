@@ -543,6 +543,7 @@ class ComposerStaticInitc9711720134ad20145480194c9fc31d6
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Email' => __DIR__ . '/../..' . '/app/Email.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\GraphQL\\Directives\\CanAccessDirective' => __DIR__ . '/../..' . '/app/GraphQL/Directives/CanAccessDirective.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',

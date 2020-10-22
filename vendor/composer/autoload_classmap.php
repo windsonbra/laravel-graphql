@@ -9,6 +9,7 @@ return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Email' => $baseDir . '/app/Email.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\GraphQL\\Directives\\CanAccessDirective' => $baseDir . '/app/GraphQL/Directives/CanAccessDirective.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
